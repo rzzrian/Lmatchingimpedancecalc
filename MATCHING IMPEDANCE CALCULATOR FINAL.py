@@ -65,8 +65,8 @@ def calculate_and_plot(ZL_real, ZL_imag, Zo, frequency, canvas):
     L0 = 10  # nH
     C0 = 1   # pF
     x0 = (L0, C0)
-    L_minmax = (1, 100)  # nH
-    C_minmax = (0.1, 10)  # pF
+    L_minmax = (1, 1000)  # nH
+    C_minmax = (0.1, 1000)  # pF
 
     # Optimization using scipy
     res1 = minimize(optim_fun_1, x0, bounds=(L_minmax, C_minmax))
