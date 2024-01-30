@@ -124,7 +124,7 @@ entry_ZL_real = ttk.Entry(input_frame)
 entry_ZL_real.grid(column=1, row=1, padx=5, pady=5, sticky='W')
 
 # Label dan Entry untuk ZL_imag
-label_ZL_imag = ttk.Label(input_frame, text="Impedansi beban (ZL_Imag) Ω :", font=1)
+label_ZL_imag = ttk.Label(input_frame, text="Impedansi Beban (ZL_Imag) Ω :", font=1)
 label_ZL_imag.grid(column=0, row=2, padx=5, pady=5, sticky='W')
 entry_ZL_imag = ttk.Entry(input_frame)
 entry_ZL_imag.grid(column=1, row=2, padx=5, pady=5, sticky='W')
